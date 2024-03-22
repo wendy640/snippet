@@ -1,10 +1,13 @@
 import "./App.scss";
 
+import ProductList from "./components/products/ProductList";
+;
+
 
 function App() {
 	return (
 		<div>
-			<h1>hello</h1>
+		<ProductList/>
 		</div>
 	);
 }
